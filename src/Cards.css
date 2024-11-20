@@ -1,0 +1,20 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .Cards-img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  .Cards-img:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+  }
+  
